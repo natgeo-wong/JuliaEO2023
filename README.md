@@ -27,7 +27,7 @@ If you have not created an EarthData account with NASA, please do so (required f
     > 
     > `HTTP.NETRC=<home-directory>/.netrc`
 2. Create a `.netrc` file in your home directory containing the following Earthdata login information:
-    > machine urs.earthdata.nasa.gov login JuliaEO2023 password JuliaEO2023passwor
+    > machine urs.earthdata.nasa.gov login JuliaEO2023 password JuliaEO2023password
 
 ### 3. Pluto Notebooks
 
