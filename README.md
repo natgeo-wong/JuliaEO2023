@@ -11,7 +11,9 @@ First, clone this repository using
 
 Next, instantiate and install the required packages with the following steps:
 > cd JuliaEO2023
+> 
 > ]activate .
+> 
 > instantiate
 
 After these steps, you should have the required packages (and exactly the same versions that I have.)
@@ -22,6 +24,7 @@ If you have not created an EarthData account with NASA, please do so (required f
 
 1. Create a `.dodsrc` file in your home directory:
     > HTTP.COOKIEJAR=<home-directory>/.urs_cookies
+    > 
     > HTTP.NETRC=<home-directory>/.netrc
 2. Create a `.netrc` file in your home directory containing the following Earthdata login information:
     > machine urs.earthdata.nasa.gov login JuliaEO2023 password JuliaEO2023passwor
@@ -34,4 +37,5 @@ I prefer to use Pluto notebooks over Jupyter notebooks due to their responsivene
 ## Run notebooks
 Run Pluto notebooks using the following command:
 > using Pluto
+>
 > Pluto.run()
