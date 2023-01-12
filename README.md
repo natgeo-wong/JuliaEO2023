@@ -23,9 +23,9 @@ After these steps, you should have the required packages (and exactly the same v
 If you have not created an EarthData account with NASA, please do so (required for NASAPrecipitation.jl downloads, more information [here](https://natgeo-wong.github.io/NASAPrecipitation.jl/dev/download.html)).
 
 1. Create a `.dodsrc` file in your home directory:
-    > HTTP.COOKIEJAR=<home-directory>/.urs_cookies
+    > `HTTP.COOKIEJAR=<home-directory>/.urs_cookies`
     > 
-    > HTTP.NETRC=<home-directory>/.netrc
+    > `HTTP.NETRC=<home-directory>/.netrc`
 2. Create a `.netrc` file in your home directory containing the following Earthdata login information:
     > machine urs.earthdata.nasa.gov login JuliaEO2023 password JuliaEO2023passwor
 
